@@ -3,6 +3,7 @@ import objreader.ObjReader;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -284,6 +285,43 @@ public class ObjReaderFaceTest {
         } catch (Exception exception) {
             String error = "Error parsing OBJ file on line: 19. Failed to parse int value.";
             Assert.assertEquals(error,exception.getMessage());
+        }
+    }
+
+    @Test
+    public void testParseFaceWord23() {
+        String nameOfFile = "stupidFile.obj";
+        try {
+            String file = Files.readString(Path.of(nameOfFile));
+            Model model = ObjReader.read(file);
+            Assert.assertTrue(false);
+        } catch (Exception exception) {
+            String error = nameOfFile;
+            Assert.assertEquals(error, exception.getMessage());
+        }
+    }
+
+    @Test
+    public void testParseFaceWord24() {
+        try {
+            String file = Files.readString(Path.of("src/main/ObjFiles/TestIncorrectSpecifiedIndexPolygon07.obj"));
+            Model model = ObjReader.read(file);
+            Assert.assertTrue(false);
+        } catch (Exception exception) {
+            String error = "Error parsing OBJ file on line: 19. The polygon can`t contain the same vertex indices";
+            Assert.assertEquals(error, exception.getMessage());
+        }
+    }
+
+    @Test
+    public void testParseFaceWord25() {
+        try {
+            String file = Files.readString(Path.of("src/main/ObjFiles/TestIncorrectSpecifiedIndexPolygon08.obj"));
+            Model model = ObjReader.read(file);
+            Assert.assertTrue(false);
+        } catch (Exception exception) {
+            String error = "Error parsing OBJ file on line: 20. The polygon can`t contain the same vertex indices";
+            Assert.assertEquals(error, exception.getMessage());
         }
     }
 }

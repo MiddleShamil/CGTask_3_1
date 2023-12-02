@@ -10,7 +10,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class ObjReader {
-
     private static final String OBJ_VERTEX_TOKEN = "v";
     private static final String OBJ_TEXTURE_TOKEN = "vt";
     private static final String OBJ_NORMAL_TOKEN = "vn";
@@ -190,6 +189,10 @@ public class ObjReader {
             parseFaceWord(s, onePolygonVertexIndices, onePolygonTextureVertexIndices, onePolygonNormalIndices, lineInd);
         }
 
+        if (findEqualites(onePolygonVertexIndices)) {
+            throw new ObjReaderException("The polygon can`t contain the same vertex indices", lineInd);
+        }
+
         Polygon result = new Polygon();
         result.setVertexIndices(onePolygonVertexIndices);
         result.setTextureVertexIndices(onePolygonTextureVertexIndices);
@@ -256,5 +259,13 @@ public class ObjReader {
             }
         }
         return -1;
+    }
+    public static boolean findEqualites(ArrayList<Integer> onePolygonVertexIndices) {
+        for (int i = 0; i < onePolygonVertexIndices.size() - 1; i++) {
+            for (int j = i + 1; j < onePolygonVertexIndices.size(); j++) {
+                if (onePolygonVertexIndices.get(i) == onePolygonVertexIndices.get(j)) return true;
+            }
+        }
+        return false;
     }
 }

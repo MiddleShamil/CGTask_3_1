@@ -5,45 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79639038-cd3b-4691-a4a9-b1a73ec33351" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestFailedToParseInt01.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestFailedToParseInt02.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestFailedToParseInt03.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestFindLineInObj.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestIncorrectSpecifiedIndexPolygon01.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestIncorrectSpecifiedIndexPolygon02.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestIncorrectSpecifiedIndexPolygon03.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestIncorrectSpecifiedIndexPolygon04.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestIncorrectSpecifiedIndexPolygon05.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestIncorrectSpecifiedIndexPolygon06.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestInvalidElementSizePolygon01.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestInvalidElementSizePolygon02.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestInvalidElementSizePolygon03.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestWithoutPolygons01.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestWithoutPolygons02.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestWithoutTextureVericesPolygon01.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestWithoutTextureVericesPolygon02.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestWithoutVertex01.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TextNegativeIndices01.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/WrapHead.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/math/Vector2f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/math/Vector3f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Polygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objreader/ObjReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objreader/ObjReaderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjReaderFaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjReaderFindLineInObjTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjReaderNormalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjReaderTextureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjReaderVertexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestIncorrectSpecifiedIndexPolygon07.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ObjFiles/TestIncorrectSpecifiedIndexPolygon08.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objreader/ObjReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objreader/ObjReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjReaderFaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjReaderFaceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +21,37 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1700909144" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1700909143" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,22 +64,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dmitr/Desktop/Проекты/Компьютерная графика/CGTask_3_1/src/main/ObjFiles",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dmitr/Desktop/Проекты/ДМ/QuickSort&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dmitr\Desktop\Проекты\Компьютерная графика\CGTask_3_1\src\main\ObjFiles" />
@@ -96,40 +89,40 @@
       <recent name="C:\Users\dmitr\Desktop\Проекты\Компьютерная графика\CGTask_3_1\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ObjReaderTextureTest">
-    <configuration name="ObjReaderFaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ObjReaderFaceTest.testParseFaceWord25">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CGTask_3_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ObjReaderFaceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjReaderFaceTest.testParseFaceWord22" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjReaderFaceTest.testParseFaceWord23" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CGTask_3_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ObjReaderFaceTest" />
-      <option name="METHOD_NAME" value="testParseFaceWord22" />
+      <option name="METHOD_NAME" value="testParseFaceWord23" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjReaderFindLineInObjTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjReaderFaceTest.testParseFaceWord24" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CGTask_3_1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ObjReaderFindLineInObjTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ObjReaderFaceTest" />
+      <option name="METHOD_NAME" value="testParseFaceWord24" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjReaderNormalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjReaderFaceTest.testParseFaceWord25" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CGTask_3_1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ObjReaderNormalTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ObjReaderFaceTest" />
+      <option name="METHOD_NAME" value="testParseFaceWord25" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ObjReaderFaceTest.testParseFaceWord25" />
+        <item itemvalue="JUnit.ObjReaderFaceTest.testParseFaceWord24" />
+        <item itemvalue="JUnit.ObjReaderFaceTest.testParseFaceWord23" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ObjReaderTextureTest" />
-        <item itemvalue="JUnit.ObjReaderNormalTest" />
-        <item itemvalue="JUnit.ObjReaderFaceTest" />
-        <item itemvalue="JUnit.ObjReaderFindLineInObjTest" />
-        <item itemvalue="JUnit.ObjReaderFaceTest.testParseFaceWord22" />
       </list>
     </recent_temporary>
   </component>
